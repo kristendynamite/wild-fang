@@ -44,6 +44,15 @@ h3, P {
   font-size: 25px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgba(186,54,208, 1);
+}
+
 .shop-now {
   position: relative;
 }
