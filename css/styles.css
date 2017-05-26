@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Living Colours';
+  src: url('../font/Living-Colours.ttf');
+
+}
+
+body {
+  background: rgba(186,54,208, 1); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgba(138, 243, 255, .5), rgba(186,54,208, .3)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(138, 243, 255, .5), rgba(186,54,208, .3)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(138, 243, 255, .5), rgba(186,54,208, .3)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(138, 243, 255, .5), rgba(186,54,208, .3)); /* Standard syntax */
+}
+
+h1 {
+  font-family: 'Living Colours';
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
