@@ -1,7 +1,16 @@
 @font-face {
   font-family: 'Living Colours';
   src: url('../font/Living-Colours.ttf');
+}
 
+@font-face {
+  font-family: 'Gangsters';
+  src: url('../font/Gangsters.ttf');
+}
+
+@font-face {
+  font-family: 'Coco-Gothic';
+  src: url('../font/Coco-Gothic.ttf');
 }
 
 body {
@@ -17,4 +26,29 @@ h1 {
   text-align: center;
   margin-top: 50px;
   font-size: 50px;
+}
+
+h4 {
+  font-family: 'Living Colours';
+}
+
+h2 {
+  font-family: 'Gangsters';
+}
+
+h3, P {
+  font-family: 'Coco-Gothic';
+}
+
+.menu-bar {
+  width: 100%;
+  border: 1px solid black;
+  overflow: auto;
+  height: 50px;
+}
+
+.menu-bar h4 {
+  float: left;
+  padding-left: 100px;
+  padding-right: 100px;
 }
