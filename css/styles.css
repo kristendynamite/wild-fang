@@ -34,10 +34,18 @@ h4 {
 
 h2 {
   font-family: 'Gangsters';
+  font-size: 85px;
+  color: white;
+  background: rgba(195, 180, 47, 0.5);
 }
 
 h3, P {
   font-family: 'Coco-Gothic';
+  font-size: 25px;
+}
+
+.shop-now {
+  position: relative;
 }
 
 .menu-bar {
@@ -51,4 +59,40 @@ h3, P {
   float: left;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+img {
+  width: 1200px;
+  position: absolute;
+  left: 40px;
+}
+
+#weekend {
+  position: absolute;
+  top: 50px;
+  left: 520px;
+  color: white;
+}
+
+#maxin {
+  position: absolute;
+  top: 380px;
+  left: 160px;
+}
+
+#sale {
+  position: absolute;
+  top: 520px;
+  left: 500px;
+  background: #66c6f4;
+  border: solid white 3px;
+  color: white;
+  font-size: 20px;
+  z-index: 9;
+}
+
+#chill {
+  position: absolute;
+  top: 500px;
+  left: 200px;
 }
